@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.App {
+  padding-bottom: 25px;
+  border-radius: 4px;
+  background-color: #fafafa;
+  -webkit-box-shadow: 0 2px 12px 6px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0 2px 12px 6px rgba(222, 222, 222, 1);
+  box-shadow: 0 2px 12px 6px rgba(222, 222, 222, 1);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+nav {
+  letter-spacing: 1.9px;
+  display: flex;
+  align-items: center;
+  padding: 20px 60px;
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  background-color: #fff;
+}
+
+nav li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.bookstore-cms {
+  width: 240px;
+  height: 37px;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.books {
+  width: 59px;
+  height: 16px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: var(--black-three);
+}
+
+.categories {
+  width: 105px;
+  height: 16px;
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: var(--black-three);
+}
+
+.Mask {
+  width: 17px;
+  height: 17px;
+  background-color: #0290ff;
+}
+
+.Oval {
+  width: 45px;
+  height: 45px;
+  border: solid 1px #e8e8e8;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
