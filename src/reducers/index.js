@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux';
-import books from './books';
-import filter from './filter';
+import { combineReducers } from "redux";
+import dogs from "./books";
+import filter from "./filter";
 
 export default combineReducers({
-  books,
-  filter,
+  dogs,
+  filter
 });

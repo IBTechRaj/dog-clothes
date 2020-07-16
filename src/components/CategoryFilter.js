@@ -1,15 +1,15 @@
-// import React from 'react';
-import PropTypes from 'prop-types';
-import '../styles/CategoryFilter.css';
+import React from "react";
+import PropTypes from "prop-types";
+import "../styles/CategoryFilter.css";
 
 const CATEGORIES = [
-  'Action',
-  'Biography',
-  'History',
-  'Horror',
-  'Kids',
-  'Learning',
-  'Sci-Fi',
+  "Action",
+  "Biography",
+  "History",
+  "Horror",
+  "Kids",
+  "Learning",
+  "Sci-Fi"
 ];
 
 const CategoryFilter = ({ handleChange }) => (
