@@ -1,0 +1,25 @@
+.dogs-list {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.dogs-filter {
+  width: 50%;
+}
+
+.dogs-clothes-store {
+  width: 50%;
+  height: 37px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: green;
+}
+
+.album {
+  margin: 10px auto;
+}

@@ -15,7 +15,7 @@
   pointer-events: none;
 }
 
-nav {
+/* nav {
   letter-spacing: 1.9px;
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@ nav {
 nav li {
   list-style-type: none;
   margin-right: 30px;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -51,17 +51,17 @@ nav li {
   color: #61dafb;
 }
 
-.bookstore-cms {
+.dogs-clothes {
   width: 240px;
   height: 37px;
-  font-family: Montserrat, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #0290ff;
+  color: green;
 }
 
 .books {
@@ -89,18 +89,6 @@ nav li {
   line-height: normal;
   letter-spacing: 1.9px;
   color: var(--black-three);
-}
-
-.Mask {
-  width: 17px;
-  height: 17px;
-  background-color: #0290ff;
-}
-
-.Oval {
-  width: 45px;
-  height: 45px;
-  border: solid 1px #e8e8e8;
 }
 
 @keyframes App-logo-spin {

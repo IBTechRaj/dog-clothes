@@ -1,15 +1,22 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "../styles/Dog.scss";
+import React from 'react';
+import PropTypes from 'prop-types';
+import '../styles/Dog.css';
 
-const Dog = ({ dog }) => (
-  <div className="dog-panel">
-    <div className="cards">
-      <img className="pic" src={dog.image} alt="no" />
-      <p> {dog.apparel_name}</p>
-    </div>
-  </div>
-);
+function Dog({ dog }) {
+  return (<div className="dog-panel">
+      <div className="cards">
+          <img
+              alt="no"
+              className="pic"
+              src={dog.image}
+          />
+          <p>
+              {' '}
+              {dog.apparel_name}
+          </p>
+      </div>
+  </div>);
+}
 
 Dog.propTypes = {
   dog: PropTypes.shape({
@@ -18,8 +25,8 @@ Dog.propTypes = {
     apparel_category: PropTypes.string.isRequired,
     apparel_name: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
-    stars: PropTypes.number.isRequired
-  }).isRequired
+    stars: PropTypes.number.isRequired,
+  }).isRequired,
 };
 
 export default Dog;

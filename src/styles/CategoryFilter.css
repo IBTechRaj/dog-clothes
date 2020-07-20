@@ -1,5 +1,5 @@
 .category-filter {
-  width: 1200px;
+  /* width: 1200px; */
 
   /* margin-bottom: 10px; */
   font-family: Montserrat, sans-serif;
@@ -13,11 +13,11 @@
 }
 
 .select {
-  width: 60%;
+  width: 50%;
   height: 45px;
   border: solid 1px #e8e8e8;
   background-color: #fff;
-  margin-left: 150px;
+  margin-left: 50px;
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 0;

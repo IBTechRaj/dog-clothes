@@ -1,4 +1,4 @@
-.food-item {
+.dog-item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 80px;
@@ -28,25 +28,17 @@
     .title {
       font-weight: bold;
       font-size: 2rem;
-    }
 
-    .ingredients {
-      margin: 20px;
+      .details {
+        font-weight: bold;
+        font-size: 2rem;
 
-      .item {
-        font-size: 1.3rem;
+        .item {
+          font-weight: bold;
+          font-size: 2rem;
+          margin-bottom: 20px;
+        }
       }
-    }
-
-    .instructions {
-      font-size: 2rem;
-      font-weight: bold;
-    }
-
-    .instruction {
-      font-size: 1.2rem;
-      font-weight: normal;
-      line-height: 1.5;
     }
   }
 }
