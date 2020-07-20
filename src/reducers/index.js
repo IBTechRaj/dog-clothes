@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import dogs from "./books";
+import dogs from "./dogs";
 import filter from "./filter";
 
 export default combineReducers({

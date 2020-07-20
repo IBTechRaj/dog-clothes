@@ -21,8 +21,5 @@ Dog.propTypes = {
     stars: PropTypes.number.isRequired
   }).isRequired
 };
-// removeBook: PropTypes.func.isRequired,
-// changeFilter: PropTypes.func.isRequired,
-// filter: PropTypes.string.isRequired
 
 export default Dog;

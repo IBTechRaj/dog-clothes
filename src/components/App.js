@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/App.css";
 import DogsList from "../containers/DogsList";
-import Dog from "./Dog";
+import DogDetails from "./DogDetails";
 import { BrowserRouter, Route } from "react-router-dom";
 // import BooksForm from "../containers/BooksForm";
 
@@ -18,7 +18,7 @@ function App() {
           </li>
         </nav>
         <Route exact path="/" component={DogsList} />
-        <Route path="/dog/:id" component={Dog} />
+        <Route path="/dog/:id" component={DogDetails} />
       </div>
     </BrowserRouter>
   );
