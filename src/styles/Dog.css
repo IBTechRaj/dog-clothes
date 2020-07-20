@@ -1,0 +1,50 @@
+.cards {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  text-align: center;
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin: 15px auto;
+}
+
+.cards:hover {
+  transition: transform 0.1s ease-out;
+  transform: translateY(5px);
+}
+
+.cards img {
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin: auto;
+}
+
+p {
+  padding: 20px 20px 20px;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.info {
+  margin-left: 40px;
+  margin-top: 5rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.details {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.item {
+  font-weight: bold;
+  font-size: 2rem;
+}

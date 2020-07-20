@@ -1,0 +1,44 @@
+.dog-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 80px;
+
+  .show-item {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    text-align: center;
+    background-color: #ccc;
+    height: 600px;
+    width: 600px;
+
+    img {
+      width: 100%;
+    }
+
+    p {
+      padding: 20px;
+    }
+  }
+
+  .info {
+    margin-left: 40px;
+    margin-top: 5rem;
+
+    .title {
+      font-weight: bold;
+      font-size: 2rem;
+
+      .details {
+        font-weight: bold;
+        font-size: 2rem;
+
+        .item {
+          font-weight: bold;
+          font-size: 2rem;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
