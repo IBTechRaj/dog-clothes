@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "../styles/DogDetails.scss";
-import { connect } from "react-redux";
+import React from 'react';
+import PropTypes from 'prop-types';
+import '../styles/DogDetails.scss';
+import { connect } from 'react-redux';
 // import { FETCH_DOG, CLEAR_DATA } from "../actions/index";
 
 function mapStateToProps(state) {
@@ -29,7 +29,7 @@ function DogDetails({ location }) {
 }
 
 DogDetails.propTypes = {
-  location: PropTypes.instanceOf(Object).isRequired
+  location: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default connect(mapStateToProps, null)(DogDetails);
